@@ -1,4 +1,4 @@
-import Jobs from "./pages/Jobs";
+import Jobs from "./pages/Jobs/page";
 export default function Home() {
   return (
     <>
