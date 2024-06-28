@@ -113,63 +113,37 @@ const JobDescription = (props: Props) => {
                     About the job
                   </div>
                   <div className="font-[500] text-base text-[10px] leading-[28px] text-[#3D3D3D]">
-                    1. Handle the UI/UX research design
-                  </div>
-                  <div className="font-[500] text-base text-[10px] leading-218px] text-[#3D3D3D]">
+                    1. Handle the UI/UX research design <br />
                     2. Work on researching on latest web applications designs &
                     trends
-                  </div>
-                  <div className="font-[500] text-base text-[10px] leading-[28px] text-[#3D3D3D]">
-                    3. Work on conceptualizing and visualizing
-                  </div>
-                  <div className="font-[500] text-base text-[10px] leading-[28px] text-[#3D3D3D]">
-                    4. Work on creating graphics content and other graphic
-                    related works
-                  </div>
-                </div>
-
-                <div className="flex flex-col gap-[6px]">
-                  <div className="font-[500] xl:text-[14px] text-[9px] leading-[18px] text-[#6E6D6D]">
-                    Benefits
-                  </div>
-                  <ol className="list-disc flex flex-col list-inside">
-                    <li className="font-[500] xl:text-[16px] text-[10px] leading-[28px] text-[#3D3D3D]">
-                      Health insurance
-                    </li>
-                    <li className="font-[500] xl:text-[16px] text-[10px] leading-[28px] text-[#3D3D3D]">
-                      Provident Fund
-                    </li>
-                  </ol>
-                </div>
-                <div className="flex flex-col gap-[6px]">
-                  <div className="font-[500] xl:text-[14px] text-[9px] leading-[18px] text-[#6E6D6D]">
+                    <br /> 3. Work on conceptualizing and visualizing
+                    <br /> 4. Work on creating graphics content and other
+                    graphic related works
+                    <br /> Benefits{" "}
+                    <ol className="list-disc flex flex-col list-inside">
+                      <li className="font-[500] xl:text-[16px] text-[10px] leading-[28px] text-[#3D3D3D]">
+                        Health insurance
+                      </li>
+                      <li className="font-[500] xl:text-[16px] text-[10px] leading-[28px] text-[#3D3D3D]">
+                        Provident Fund
+                      </li>
+                    </ol>
                     Schedule
-                  </div>
-                  <ol className="list-disc flex flex-col list-inside">
-                    <li className="font-[500] xl:text-[16px] text-[10px] leading-[28px] text-[#3D3D3D]">
-                      Day shift
-                    </li>
-                  </ol>
-                </div>
-                <div className="flex flex-col gap-[6px]">
-                  <div className="font-[500] xl:text-[14px] text-[9px] leading-[18px] text-[#6E6D6D]">
+                    <ol className="list-disc flex flex-col list-inside">
+                      <li className="font-[500] xl:text-[16px] text-[10px] leading-[28px] text-[#3D3D3D]">
+                        Day shift
+                      </li>
+                    </ol>
                     Supplemental pay types
-                  </div>
-                  <ol className="list-disc flex flex-col list-inside">
-                    <li className="font-[500] xl:text-[16px] text-[10px] leading-[28px] text-[#3D3D3D]">
-                      Performance bonus
-                    </li>
-                    <li className="font-[500] xl:text-[16px] text-[10px] leading-[28px] text-[#3D3D3D]">
-                      Yearly bonus
-                    </li>
-                  </ol>
-                </div>
-                <div className="flex flex-col gap-[6px]">
-                  <div className="font-[500] xl:text-[14px] text-[9px] leading-[18px] text-[#6E6D6D]">
-                    Work Location
-                  </div>
-                  <div className="font-[500] xl:text-[16px] text-[10px] leading-[28px] text-[#3D3D3D]">
-                    In person
+                    <ol className="list-disc flex flex-col list-inside">
+                      <li className="font-[500] xl:text-[16px] text-[10px] leading-[28px] text-[#3D3D3D]">
+                        Performance bonus
+                      </li>
+                      <li className="font-[500] xl:text-[16px] text-[10px] leading-[28px] text-[#3D3D3D]">
+                        Yearly bonus
+                      </li>
+                    </ol>
+                    Work Location: In person
                   </div>
                 </div>
               </div>

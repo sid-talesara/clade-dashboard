@@ -141,7 +141,7 @@ const Navbar = () => {
 
         {/* Middle Menu Desktop*/}
         <div className={` items-center lg:flex hidden `}>
-          <ul className="flex items-center border-[0.5px] border-[#D1D1D1] rounded-full py-2 gap-16 px-4 ">
+          <ul className="flex items-center border-[0.5px] border-[#D1D1D1] rounded-full py-2 gap-20 px-4 ">
             <li className="xl:text-[20px] bg-[#DC4A2D] border-[2px] border-[#FCB4A5] py-4 px-4 rounded-[49px] justify-center items-center font-[500] cursor-pointer flex gap-2 leading-[27px] 2xl:text-[1.2rem]">
               <div className="">
                 <Job />
