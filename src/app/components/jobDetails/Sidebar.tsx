@@ -16,7 +16,7 @@ type Props = {};
 const Sidebar = (props: Props) => {
   return (
     <div>
-      <div className="fixed bottom-0 right-0 bg-[#fcfcfc] xl:w-full max-w-[450px] w-full flex flex-col h-screen  border-l-gray-200">
+      <div className=" bg-[#fcfcfc] xl:w-full max-w-[450px] w-full flex flex-col h-screen  border-l-gray-200">
         <div className="w-full p-4 xl:p-10 border-l h-full  border-l-gray-200 border-b-gray-200">
           {/* btn group */}
           <div className="flex justify-center gap-4 items-center">

@@ -6,14 +6,20 @@ import CompanyProfile from "@/app/components/jobDetails/CompanyProfile";
 
 const Jobs = () => {
   return (
-    <div className="w-full flex flex-row">
-      <div className="w-[70%] ">
-        <JobDescription />
-
-        <CompanyProfile />
+    <div>
+      <div className="sticky z-30 w-full top-0">
+        <Navbar />
       </div>
-      <div className="w-[30%] ">
-        <Sidebar />
+      <div className="w-full flex flex-row relative">
+        <div className="w-[70%]">
+          <JobDescription />
+          <CompanyProfile />
+        </div>
+        <div className="w-[30%] ">
+          <div className="fixed z-10  right-0">
+            <Sidebar />
+          </div>
+        </div>
       </div>
     </div>
   );
